@@ -1,0 +1,31 @@
+{
+    "name": "algos",
+    "version": "0.0.1",
+    "description": "A collection of computer science algorithms",
+    "dependencies": {},
+    "devDependencies": {
+        "chai": "^4.2.0",
+        "eslint": "^6.8.0",
+        "eslint-config-ebay": "^1.1.2",
+        "mocha": "^7.1.1",
+        "nyc": "^15.0.1"
+    },
+    "scripts": {
+        "lint": "eslint .",
+        "test": "npm run lint && nyc --include src/** mocha tests/**"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/senthilp/algos.git"
+    },
+    "keywords": [
+        "algorithms",
+        "data structures",
+        "computer science"
+    ],
+    "author": "senthilp",
+    "bugs": {
+        "url": "https://github.com/senthilp/algos/issues"
+    },
+    "homepage": "https://github.com/senthilp/algos#readme"
+}
